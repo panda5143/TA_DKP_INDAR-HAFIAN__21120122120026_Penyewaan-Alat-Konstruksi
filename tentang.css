@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+}
+
+
+nav {
+  background-color: #555;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #777;
+}
+
+.mobil {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.mobil-item {
+  display: inline-block;
+  margin: 20px;
+}
+
+.mobil-item img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-info img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #333;
+}
